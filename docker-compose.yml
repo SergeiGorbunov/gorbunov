@@ -1,11 +1,9 @@
-version: '3.5'
-
 services:
   app:
     build:
       context: .
       dockerfile: Dockerfile
-    container_name: docker-next
+    container_name: gorbunov
     ports:
       - '3000:3000'
     volumes:
